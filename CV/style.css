@@ -1,0 +1,72 @@
+body {
+    margin:0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container {
+    margin: 0; 
+    border: 1px white solid;
+    padding:20px 50px !important;
+
+}
+
+header {
+    margin:0;
+    padding: 25px;
+}
+
+main {
+    background-color: black;
+    color: white;
+}
+
+#profile {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 20px 35px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 120px !important;
+    margin:0;
+    letter-spacing: 10px;
+ 
+}
+h2 { 
+    font-size: 12px !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: normal;
+}
+
+p{
+    font-size: 14px;
+   
+}
+
+.skill {
+    list-style:none;
+    padding: 10px;
+}
+
+emoji {
+position: absolute;
+width: 26px;
+height: 24px;
+left: 750px;
+top: 140px;
+}
+
+span {
+    text-align:center;
+    display:inline-block;
+    margin: 10px 0;
+    padding-left: 135px;
+    
+}
