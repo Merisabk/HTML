@@ -27,6 +27,7 @@ main {
     font-weight: 300;
     line-height: 20px;
     padding: 20px 35px;
+   
 }
 
 h1 {
@@ -53,20 +54,33 @@ p{
 .skill {
     list-style:none;
     padding: 10px;
+    margin:0px;
+  
 }
 
 emoji {
-position: absolute;
+position:relative;
 width: 26px;
 height: 24px;
 left: 750px;
-top: 140px;
+top: 5px;
 }
 
-span {
+footer {
     text-align:center;
     display:inline-block;
     margin: 10px 0;
-    padding-left: 135px;
-    
+   justify-content: space-between;
+ 
+}
+
+span {
+    padding-left: 120px;
+}
+
+
+hr.rounded {
+    border-top: 6px solid white;
+    border-radius: 3px;
+    margin:0;
 }
