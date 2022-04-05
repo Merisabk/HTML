@@ -55,15 +55,45 @@ for(let i = 1; i <= 10; i++){
 // Extra: Consider the case where age is less than 18 - return 'underage'.
 
 
-let age = 60;
-if (age >= 18 && age <= 65) {
-console.log(`You are between 18 and 65`) }
-else if  (age < 18) {
-        console.log(`You are uderage`)
-    } else {
-        console.log(`You are over 65`)
-    }
+// let age = 60;
+// if (age >= 18 && age <= 65) {
+// console.log(`You are between 18 and 65`) }
+// else if  (age < 18) {
+//         console.log(`You are uderage`)
+//     } else {
+//         console.log(`You are over 65`)
+//     }
 
- //Using ternary-if syntax, write code that checks if age is above 50.
-let over50 = (age >= 50 ? "over 50" : "under 50" );
-console.log(over50);
+//  //Using ternary-if syntax, write code that checks if age is above 50.
+// let over50 = (age >= 50 ? "over 50" : "under 50" );
+// console.log(over50);
+
+//Objects, Arrays + JSON 
+//Create an object called darthVader with the keys allegiance, weapon and sith and the values of empire, lightsabre and true. Finally log darthVader
+ let darthVader = {
+ allegiance: `empire`,
+ weapon:`lightsabre`,
+ sith: `true`
+ };
+ console.log(darthVader);
+
+ console.log(`Darth Vader's allegiance is to the ` + darthVader.allegiance);
+ console.log(`Darth Vader's weapon of choice is a ` + darthVader.weapon);
+ console.log(`Darth Vader is a sith?` + darthVader.sith);
+ console.log(`Darth Vader is a Jedi?` + darthVader.sith ? `false`:`true`);
+
+ //Create an array with the name myArray with 2 elements hello,everyone..
+// Next print the length of the array
+// Next use the push() method to add 3 elements to the array
+// Next print the length of the array
+// Next use shift() to remove an element
+// Finally print the contents of the array using a for of loop.
+
+myArray = [`hello`, `everyone`];
+console.log(myArray.length);
+console.log(myArray.push("how", "are", "you"));
+console.log(myArray.shift());
+console.log(myArray);
+for (let eachElement of myArray) {
+    console.log(eachElement);
+}
