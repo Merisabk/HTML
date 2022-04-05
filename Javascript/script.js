@@ -47,3 +47,23 @@ for(let i = 1; i <= 10; i++){
     console.log(j);
 }
 
+
+// Create a IF statement that satifies the following:
+//Declare a variable age
+// Write a condition that checks if age is between 18 AND 65
+// Return a value in each case where the condition is satisfied and not satisfied.
+// Extra: Consider the case where age is less than 18 - return 'underage'.
+
+
+let age = 60;
+if (age >= 18 && age <= 65) {
+console.log(`You are between 18 and 65`) }
+else if  (age < 18) {
+        console.log(`You are uderage`)
+    } else {
+        console.log(`You are over 65`)
+    }
+
+ //Using ternary-if syntax, write code that checks if age is above 50.
+let over50 = (age >= 50 ? "over 50" : "under 50" );
+console.log(over50);
