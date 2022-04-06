@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 // // USE STRICT and CONSOLE
 // // use strict: forces us to write secure javaScript. stops us using protected words, accidentaly making global variables etc. 
 // //`use strict` 
@@ -159,13 +159,39 @@
 // Write an if statement that checks if the variable meets a condition
 // Inside create a local variable
 // Try to access both variables and asses your output
-function aFunction(){
-    let x = `foo`;
-    if (x == `foo`) {
-        let y = `bye`; }
+// function aFunction(){
+//     let x = `foo`;
+//     if (x == `foo`) {
+//         let y = `bye`; }
 
-        console.log(x);
-        console.log(y);
+//         console.log(x);
+//         console.log(y);
+// }
+// aFunction();
+
+
+import * as DOM from './dom.js';
+
+let str = "Hello";
+DOM.textButton.onclick = () => DOM.textOutput.innerHTML = DOM.textInput.value;//`${str}`;
+
+
+
+//Write a function that creates a new h1 element, adds text to that element and then adds the h1 to the tree of the document on load of the HTML page.
+window.onload = function() {
+    let h1Element = document.createElement("h1");
+    let h1Element_text = document.createTextNode("Hello World!");
+    h1Element.appendChild(h1Element_text);
+    document.body.appendChild(h1Element);
 }
-aFunction();
 
+let h1 = document.querySelector('h1');
+h1.style.color = 'red';
+
+let paragraph = document.querySelectorAll('p');
+for (let p of paragraph) {
+    p.style.color = 'blue';
+}
+
+let btn = document.querySelector('button');
+btn.addEventListener('click', foo);
