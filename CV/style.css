@@ -8,6 +8,7 @@ body {
     margin: 0; 
     border: 1px white solid;
     padding:20px 50px !important;
+   
 
 }
 
@@ -27,7 +28,6 @@ main {
     font-weight: 300;
     line-height: 20px;
     padding: 20px 35px;
-   
 }
 
 h1 {
